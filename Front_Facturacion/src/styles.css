@@ -1,0 +1,57 @@
+body{
+    background: #16BFFD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    padding: 20px;
+}
+#contenedorDataGrid{
+    position: relative;
+    display: inline-flex;
+}
+#dataGridVentas{
+    border: 1px solid #bababa;
+    min-height: 400px;
+    height: auto;
+    margin: 5px;
+}
+#dataGridProductos{
+    border: 1px solid #bababa;
+    min-height: 400px;
+    height: auto;
+    margin: 5px;
+}
+.titleContent{
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+.title{
+    font-family: 'Potta One', cursive;
+    font-weight: normal;
+}
+.subtitle{
+    font-family: 'Potta One', cursive;
+    font-weight: normal;
+    margin: 0px 0px 12px 12px;
+    text-align: center;
+}
+.instruccionesVentas{
+    background-color: #ffffff;
+    padding: 25px;
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+.tabla{
+    border-spacing: 20px;
+}
+.delete{
+    color: #1c92d2;
+    text-decoration: underline #1c92d2;
+    font-family: Arial;
+}
+.bold{
+    font-weight: bold;
+}
